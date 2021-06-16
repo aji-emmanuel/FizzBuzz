@@ -6,14 +6,14 @@ namespace Fizz_Buzz
       {
           for(int i=1; i<=100; i++)
           {
-              if(i%3 == 0){
-                  console.writeline("Fizz");
+              if(i%3==0 && i%5==0){
+                  Console.WriteLine("FizzBuzz");
               }else if (i%5 ==0){
-                  console.writeline("Buzz");
-              }else if(i%3==0 && i%5==0){
-                  console.writeline("FizzBuzz")
+                  Console.WriteLine("Buzz");
+              }else if(i%3 == 0){
+                  Console.WriteLine("Fizz");
               }else{
-                  console.writeline(i)
+                  Console.WriteLine(i);
               }
           }
       }
